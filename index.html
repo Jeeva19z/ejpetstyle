@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EJ Pet Styles – Premium Pet Grooming</title>
+
+
+  <!-- Meta Description -->
+  <meta name="description" content="We provide high quality services in Chennai. Affordable, reliable and professional solutions for your needs. Contact us today!">
+
+  <!-- Keywords (optional but ok for basic SEO) -->
+  <meta name="keywords" content="web design Chennai, website development, SEO services, digital marketing Chennai">
+
+  <!-- Author -->
+  <meta name="author" content="EJ Pet Styles">
+
+  <!-- Robots -->
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph (for Facebook, WhatsApp preview) -->
+  <meta property="og:title" content="EJ Pet Styles">
+  <meta property="og:description" content="Best services in Chennai with affordable pricing.">
+  <meta property="og:image" content="https://yourdomain.com/image.jpg">
+  <meta property="og:url" content="ejpetstyles.in">
+  <meta property="og:type" content="website">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500;600&family=Dancing+Script:wght@700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <style>
+    img.logo-icon-img {
+      width: 100%;
+      border-radius: 50%;
+    }
+
+    .logo-icon {
+      width: 44px;
+      height: 44px;
+      background: none;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      box-shadow: none;
+    }
+
+    .pricing-scroll-x {
+      opacity: 1;
+      transform: translateY(0);
+      overflow-x: scroll;
+    }
+
+    @media (min-width: 1440px) {
+      .hero {
+        justify-content: center;
+      }
+    }
+
+    @media (min-width: 1024px) and (max-width: 1440px) {
+      .hero {
+        min-height: 90vh;
+        padding: 100px 40px 60px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ===== CURSOR ===== -->
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+
+  <!-- ===== LOADER ===== -->
+  <div class="loader" id="loader">
+    <div class="loader-paw">🐾</div>
+    <p>EJ Pet Styles</p>
+  </div>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="header">
+    <div class="header-inner">
+      <div class="logo">
+        <div class="logo-icon">
+          <img src="/assets/image/ej_pet-logo.png" alt="EJ pet shop" class="logo-icon-img">
+        </div>
+        <span class="logo-text">EJ Pet Styles</span>
+      </div>
+      <nav class="nav" id="nav">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#why" class="nav-link">Why Choose Us</a>
+        <a href="#pricing" class="nav-link">Pricing</a>
+        <a href="#gallery" class="nav-link">Gallery</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a href="tel:+919944592807" class="call-btn">📞 +91 9944592807</a>
+        <a href="#booking" class="book-btn">Book Now</a>
+        <button class="hamburger" id="hamburger">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="hero-blob blob1"></div>
+      <div class="hero-blob blob2"></div>
+      <div class="hero-blob blob3"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-tag reveal">✦ Premium Pet Grooming in Chennai</div>
+      <h1 class="hero-title reveal">
+        Your Pet Deserves<br /><em>The Best Care</em>
+      </h1>
+      <p class="hero-desc reveal">Professional grooming with love, patience, and expertise. Serving Palavakkam & Chennai
+        since day one.</p>
+      <div class="hero-btns reveal">
+        <a href="#booking" class="btn-primary">Book Appointment</a>
+        <a href="#services" class="btn-outline">Explore Services</a>
+      </div>
+      <div class="hero-stats reveal">
+        <div class="stat"><span class="stat-num">500+</span><span class="stat-label">Happy Pets</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">5★</span><span class="stat-label">Rating</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">7 Days</span><span class="stat-label">Open</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-card-main">
+        <div class="pet-emoji-big">🐶</div>
+        <div class="card-badge">Grooming Expert</div>
+      </div>
+      <div class="hero-float fc1">🐱</div>
+      <div class="hero-float fc2">🛁</div>
+      <div class="hero-float fc3">✂️</div>
+      <div class="hero-float fc4">🐾</div>
+    </div>
+    <div class="scroll-hint">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual">
+          <div class="about-img-wrap">
+            <div class="about-img-placeholder">
+              <div class="about-emoji">🐾</div>
+              <div class="about-img-text">EJ Pet Styles</div>
+              <div class="about-img-sub">Palavakkam, Chennai</div>
+            </div>
+            <div class="about-badge-1">Est. 2020</div>
+            <div class="about-badge-2">❤️ Pet Friendly</div>
+          </div>
+        </div>
+        <div class="about-content">
+          <div class="section-tag reveal">About Us</div>
+          <h2 class="section-title reveal">Grooming with Love,<br /><em>Care & Expertise</em></h2>
+          <p class="about-text reveal">At EJ Pet Styles, we believe every pet deserves to look great and feel
+            comfortable. Our grooming services are designed to provide a safe, hygienic, and stress-free experience for
+            your furry companions.</p>
+          <p class="about-text reveal">Located in Palavakkam, we offer personalized grooming services for different
+            breeds and coat types, handled with patience and care.</p>
+          <ul class="about-list">
+            <li class="reveal"><span class="check">✔</span> Safe and hygienic grooming environment</li>
+            <li class="reveal"><span class="check">✔</span> Experienced and pet-friendly handling</li>
+            <li class="reveal"><span class="check">✔</span> Quality grooming products</li>
+            <li class="reveal"><span class="check">✔</span> Customized care for each pet</li>
+            <li class="reveal"><span class="check">✔</span> Comfort-focused grooming sessions</li>
+            <li class="reveal"><span class="check">✔</span> Trusted local pet grooming service</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag reveal">Our Services</div>
+        <h2 class="section-title reveal">Our Grooming <em>Services</em></h2>
+        <p class="section-sub reveal">Pampering pets with care, cleanliness, and style.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-icon">🛁</div>
+          <div class="service-num">01</div>
+          <h3>Bath & Brush</h3>
+          <p>Gentle bath, blow dry, brushing, and coat freshening for a clean and healthy pet.</p>
+          <div class="service-line"></div>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">✂️</div>
+          <div class="service-num">02</div>
+          <h3>Tidying & Shape</h3>
+          <p>Face trim, paw trim, hygiene trim, and neat styling for a smart look.</p>
+          <div class="service-line"></div>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">🌟</div>
+          <div class="service-num">03</div>
+          <h3>Full Grooming</h3>
+          <p>Complete grooming session including haircut, bath, blow dry, nail trim, and ear cleaning.</p>
+          <div class="service-line"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY US ===== -->
+  <section class="why" id="why">
+    <div class="why-bg-shape"></div>
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag reveal">Why Choose Us</div>
+        <h2 class="section-title reveal">Your Pets Will Feel<br /><em>Loved & Pampered</em> With Us</h2>
+      </div>
+      <div class="why-grid">
+        <div class="why-card reveal">
+          <div class="why-icon">🏆</div>
+          <div class="why-number">01</div>
+          <h3>Experienced Professionals</h3>
+          <p>Our team handles pets gently and ensures comfortable grooming.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-icon">💚</div>
+          <div class="why-number">02</div>
+          <h3>Loving Environment</h3>
+          <p>We create a calm and friendly grooming experience.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-icon">🎯</div>
+          <div class="why-number">03</div>
+          <h3>Comprehensive Service</h3>
+          <p>From bath to haircut, everything is done with care and attention.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-icon">🛡️</div>
+          <div class="why-number">04</div>
+          <h3>Comfort & Safety First</h3>
+          <p>Your pet's comfort, cleanliness, and safety come first.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRICING ===== -->
+  <section class="pricing " id="pricing">
+    <div class="container">
+      <div class="section-header ">
+        <div class="section-tag reveal">Pricing</div>
+        <h2 class="section-title reveal">Transparent <em>Pricing</em></h2>
+        <p class="section-sub reveal">No hidden charges. Just great grooming.</p>
+      </div>
+      <div class="pricing-table-wrap reveal pricing-scroll-x">
+        <table class="pricing-table">
+          <thead>
+            <tr>
+              <th>Service</th>
+              <th><span class="dog-icon">🐩</span> Small Breed</th>
+              <th><span class="dog-icon">🐕</span> Medium Breed</th>
+              <th><span class="dog-icon">🐕‍🦺</span> Large Breed</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Basic Grooming</strong></td>
+              <td class="price-cell">₹1,200</td>
+              <td class="price-cell">₹1,350</td>
+              <td class="price-cell">₹1,500</td>
+            </tr>
+            <tr>
+              <td><strong>Hair Cut</strong></td>
+              <td class="price-cell">₹800</td>
+              <td class="price-cell">₹800</td>
+              <td class="price-cell">₹800</td>
+            </tr>
+            <tr>
+              <td><strong>Bath + Hair Cut</strong></td>
+              <td class="price-cell">₹1,800</td>
+              <td class="price-cell">₹1,950</td>
+              <td class="price-cell">₹2,300</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="pricing-extras reveal">
+        <div class="extras-box">
+          <h4>✨ Basic Grooming Includes</h4>
+          <div class="extras-tags">
+            <span>Shampoo Wash</span><span>Conditioning</span><span>Blow & Dry</span>
+            <span>Nail Cutting</span><span>Ear Cleaning</span><span>Anal Gland Cleaning</span>
+          </div>
+        </div>
+        <div class="extras-box">
+          <h4>➕ Add-On Services</h4>
+          <div class="addon-list">
+            <div class="addon-item"><span>Nail Cutting</span><span class="addon-price">₹100</span></div>
+            <div class="addon-item"><span>Medicated Bath</span><span class="addon-price">₹400</span></div>
+            <div class="addon-item"><span>Teeth Cleaning</span><span class="addon-price">₹200</span></div>
+            <div class="addon-item"><span>De-shedding</span><span class="addon-price">₹200</span></div>
+            <div class="addon-item"><span>Dematting</span><span class="addon-price">₹600</span></div>
+            <div class="addon-item"><span>Hygienic Cut</span><span class="addon-price">₹400</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY ===== -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag reveal">Gallery</div>
+        <h2 class="section-title reveal">Our Happy <em>Clients</em></h2>
+        <p class="section-sub reveal">Every pet leaves looking and feeling amazing.</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item reveal gi-1">
+          <div class="gallery-emoji">🐶</div>
+          <div class="gallery-label">Golden Retriever – Full Groom</div>
+        </div>
+        <div class="gallery-item reveal gi-2">
+          <div class="gallery-emoji">🐩</div>
+          <div class="gallery-label">Poodle – Styling</div>
+        </div>
+        <div class="gallery-item reveal gi-3">
+          <div class="gallery-emoji">🐱</div>
+          <div class="gallery-label">Persian Cat – Bath</div>
+        </div>
+        <div class="gallery-item reveal gi-4">
+          <div class="gallery-emoji">🐕</div>
+          <div class="gallery-label">Labrador – Brush</div>
+        </div>
+        <div class="gallery-item reveal gi-5">
+          <div class="gallery-emoji">🦮</div>
+          <div class="gallery-label">Shih Tzu – Trim</div>
+        </div>
+        <div class="gallery-item reveal gi-6">
+          <div class="gallery-emoji">🐾</div>
+          <div class="gallery-label">Spitz – Full Groom</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag reveal">Contact</div>
+        <h2 class="section-title reveal">Visit <em>EJ Pet Styles</em></h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-card reveal">
+            <div class="contact-icon">📍</div>
+            <div>
+              <h4>Address</h4>
+              <p>No.2/90 East Coast Road, ECR,<br />Palavakkam, Chennai – 600041</p>
+            </div>
+          </div>
+          <div class="contact-card reveal">
+            <div class="contact-icon">📞</div>
+            <div>
+              <h4>Phone</h4>
+              <p><a href="tel:+919944592807">+91 9944592807</a><br /><a href="tel:+918148292807">+91 8148292807</a></p>
+            </div>
+          </div>
+          <div class="contact-card reveal">
+            <div class="contact-icon">✉️</div>
+            <div>
+              <h4>Email</h4>
+              <p><a href="mailto:ejpetstyles@gmail.com">ejpetstyles@gmail.com</a></p>
+            </div>
+          </div>
+          <div class="contact-card reveal">
+            <div class="contact-icon">🕘</div>
+            <div>
+              <h4>Working Hours</h4>
+              <p>Monday to Sunday<br />9:00 AM – 7:00 PM</p>
+            </div>
+          </div>
+        </div>
+        <div class="map-wrap reveal">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.1165917478734!2d80.25380047373172!3d12.964390515039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525dfc8f4b5581%3A0x69f337c7dfa19a5e!2sEJ%20Pet%20Styles!5e0!3m2!1sen!2sin!4v1774420467772!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="map-overlay-text">📍 Palavakkam, Chennai – 600041</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BOOKING ===== -->
+  <section class="booking" id="booking">
+    <div class="booking-bg">
+      <div class="booking-blob b1"></div>
+      <div class="booking-blob b2"></div>
+    </div>
+    <div class="container">
+      <div class="booking-inner">
+        <div class="booking-left reveal">
+          <div class="section-tag">Book Now</div>
+          <h2 class="section-title">Make Your Pet's<br /><em>Appointment</em></h2>
+          <p>Reserve a spot for your furry friend. We'll take care of the rest!</p>
+          <div class="booking-perks">
+            <span>✔ No Hidden Charges</span>
+            <span>✔ Open 7 Days</span>
+            <span>✔ Expert Groomers</span>
+          </div>
+        </div>
+        <div class="booking-form-wrap reveal">
+          <form class="booking-form" id="bookingForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label>Pet Name</label>
+                <input type="text" placeholder="e.g., Bruno" required id="name" />
+              </div>
+              <div class="form-group">
+                <label>Owner Name</label>
+                <input type="text" placeholder="Your name" required id="petname" />
+              </div>
+            </div>
+            <!-- <div class="form-group">
+            <label>Phone Number</label>
+            <input type="tel" placeholder="+91 XXXXX XXXXX" required />
+          </div> -->
+            <div class="form-group">
+              <label>Type of Service</label>
+              <select required id="service">
+                <option value="" disabled selected>Select a service</option>
+                <option>Basic Grooming</option>
+                <option>Hair Cut</option>
+                <option>Bath + Hair Cut</option>
+                <option>Bath & Brush</option>
+                <option>Full Grooming</option>
+                <option>Add-On Service</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Message</label>
+              <textarea placeholder="Any special instructions or notes..." rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn-primary full-width">Book Appointment 🐾</button>
+          </form>
+          <div class="form-success" id="formSuccess">
+            <div class="success-icon">🐾</div>
+            <h3>Appointment Requested!</h3>
+            <p>We'll call you shortly to confirm. Thank you!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">
+            <div class="logo-icon">
+              <div class="logo-icon">
+                <img src="/assets/image/ej_pet-logo.png" alt="EJ pet shop" class="logo-icon-img">
+              </div>
+            </div>
+            <span class="logo-text">EJ Pet Styles</span>
+          </div>
+          <p>Premium pet grooming in Palavakkam, Chennai. Because every pet deserves the best.</p>
+          <div class="social-icons">
+            <a href="https://instagram.com" target="_blank" class="social-icon" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" />
+                <circle cx="12" cy="12" r="5" />
+                <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" />
+              </svg>
+            </a>
+            <a href="https://wa.me/919944592807" target="_blank" class="social-icon" aria-label="WhatsApp">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h5>Quick Links</h5>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h5>Contact Info</h5>
+          <p>📞 <a href="tel:+919944592807">+91 9944592807</a></p>
+          <p>📞 <a href="tel:+918148292807">+91 8148292807</a></p>
+          <p>✉️ <a href="mailto:ejpetstyles@gmail.com">ejpetstyles@gmail.com</a></p>
+          <p>📍 No.2/90 ECR, Palavakkam,<br />Chennai – 600041</p>
+          <p>🕘 Mon–Sun: 9AM – 7PM</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 EJ Pet Styles. All rights reserved. Made with ❤️ for pets.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/js/script.js"></script>
+
+  <script src="/assets/js/whatupjs.js"></script>
+</body>
+
+</html>
